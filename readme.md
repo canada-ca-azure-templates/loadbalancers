@@ -136,7 +136,7 @@ The following security controls can be met through configuration of this templat
 
 | Name                    | Type    | Required | Value                                                                                                                                                                                                                                                                                |
 | ----------------------- | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| frontendIPConfiguration | object  | Yes      | MUST be present and equal exactly to: "frontendIPConfiguration": {},                                                                                                                                                                                                                         |
+| frontendIPConfiguration | object  | Yes      | MUST be present and equal exactly to: "frontendIPConfiguration": {},                                                                                                                                                                                                                 |
 | protocol                | enum    | No       | Udp, Tcp, All                                                                                                                                                                                                                                                                        |
 | frontendPort            | integer | No       | The port for the external endpoint. Port numbers for each rule must be unique within the Load Balancer. Acceptable values range from 1 to 65534.                                                                                                                                     |
 | backendPort             | integer | No       | The port used for the internal endpoint. Acceptable values range from 1 to 65535.                                                                                                                                                                                                    |
@@ -160,7 +160,7 @@ The following security controls can be met through configuration of this templat
 
 ## History
 
-| Date     | Change        |
-| -------- | ------------- |
-| 20190309 | 1st commit    |
-| 20190501 | Update readme |
+| Date     | Release                                                                              | Change                                                      |
+| -------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| 20190309 |                                                                                      | 1st commit                                                  |
+| 20190501 | [20190501](https://github.com/canada-ca-azure-templates/loadbalancers/tree/20190501) | Updated documentation and add remaining type of DNS records |
