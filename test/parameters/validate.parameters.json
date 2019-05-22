@@ -6,7 +6,7 @@
             "value": [
                 {
                     "name": "testlb1",
-                    "loadbalancers": "Basic",
+                    "sku": "Basic",
                     "publicIPAddressName": "testlb-PubIP",
                     "publicIPAddressesProperties": {
                         "publicIPAllocationMethod": "Static",
